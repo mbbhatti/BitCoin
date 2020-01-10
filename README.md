@@ -13,6 +13,9 @@ Laravel utilizes composer to manage its dependencies. So, before using Laravel, 
 You need to create a .env file from. env.example, if .env not exists.
 -  cp .env.example .env
 
+- Add following line in the .env file
+API_URL=https://api.coindesk.com/v1/bpi/historical/close.json
+
 Then, run this command to create key in .env file if not exists.
 - php artisan key:generate
 
